@@ -3,9 +3,8 @@ from tkinter import Tk,Button,Canvas,Checkbutton,Entry,\
     Scale,Scrollbar,Text,Toplevel,Spinbox,PanedWindow,LabelFrame,ttk,StringVar
 from tkinter.ttk import Combobox
 from tkinter.constants import *
-from version1 import AddrInfoClass
-confNetInfoFrame = Frame(bg='red')
-confNetInfoFrame = Frame(bg='red')
+from version2 import AddrInfoClass
+confNetInfoFrame = Frame()
 padxValue = 5
 #标签 用户名密码
 Label(confNetInfoFrame,text='地址信息列表:').grid(row=0,column=0,padx=padxValue,pady=20)

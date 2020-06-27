@@ -3,9 +3,8 @@ from tkinter import Tk,Button,Canvas,Checkbutton,Entry,\
     Scale,Scrollbar,Text,Toplevel,Spinbox,PanedWindow,LabelFrame,ttk,StringVar
 from tkinter.ttk import Combobox
 from tkinter.constants import *
-from version1 import AddrInfoClass
 root = Tk()
-root.geometry('450x300')
+root.geometry('500x450')
 notebook = ttk.Notebook(root)
 from version2.frame1 import confNetInfoFrame
 from version2.frame2 import checkNetFrame
